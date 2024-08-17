@@ -4,13 +4,13 @@ This e-commerce product scraping platform, built with Next.js and powered by Bri
 
 # ⚙️ Tech Stack
 
-Next.js
-Bright Data
-Cheerio
-Nodemailer
-MongoDB
-Headless UI
-Tailwind CSS
+- Next.js
+- MongoDB
+- Headless UI
+- Tailwind CSS
+- Bright Data
+- Cheerio
+- Nodemailer
 
 # 🔋 Features
 
