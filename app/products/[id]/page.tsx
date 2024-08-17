@@ -74,21 +74,21 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                 <div className='product-stars'>
                   <Image src='/assets/icons/star.svg' alt='star' width={16} height={16} />
                   <p className='text-sm text-primary-orange font-semibold'>
-                    {product.stars || '25'}
+                    {product.stars}
                   </p>
                 </div>
 
                 <div className='product-reviews'>
                   <Image src='/assets/icons/comment.svg' alt='comment' width={16} height={16} />
-                  <p className='text-sm text-secondary font-semibold'>
+                  <Link href={product.url} className='text-sm text-secondary font-semibold'>
                     {product.reviewsCount} Reviews
-                  </p>
+                  </Link>
                 </div>
               </div>
 
               <p className='text-sm text-black opacity-50'>
                 <span className='text-primary-green font-semibold'>93% </span> of buyers have
-                recommeded this.
+                recommended this.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
             </div>
           </div>
 
-          <Modal />
+          <Modal productId={id} />
         </div>
       </div>
 
