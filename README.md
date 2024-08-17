@@ -2,7 +2,7 @@
 
 This e-commerce product scraping platform, built with Next.js and powered by Bright Data's Web Unlocker, empowers users to make well-informed purchasing decisions. It sends notifications for price drops and alerts competitors when a product goes out of stock, all automated through cron jobs. Join our active Discord community of over 27k members for support and collaboration.
 
-# ⚙️ Tech Stack
+# ⚙️ Techenologies used:
 
 - Next.js
 - MongoDB
