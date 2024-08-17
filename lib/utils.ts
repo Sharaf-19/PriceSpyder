@@ -57,7 +57,7 @@ export function extractDescription($: any) {
   }
 
   // If no matching elements were found, return an empty string
-  return '';
+  return 'No Description';
 }
 
 export function getHighestPrice(priceList: PriceHistoryItem[]) {
